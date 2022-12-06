@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+*{
+    /* font-family: 'Nerko One', cursive; */
+    
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(rgba(255, 255, 255, 0.5),rgba(0,0,0,0.5)),url('img/bg.webp');
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+    /* display: grid;
+    place-content: center; */
+}
+.counter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 10px;
+
+}
+p{
+    font-size: 14px;
+}
+.newyear{
+    font-family:fantasy;
+    font-size: 50px;
+    font-weight: 400;
+    margin-top: 30p;
+    color: lightgreen;
+    text-shadow: 2px 5px 6px red;
+}
+.box{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    /* background-color: red; */
+}
+.box h2{
+    font-size: 20px;
+}
+.box small{
+    font-size: 10px;
+
+}
+
+.check{
+    color: aqua;
+    margin-top: 50px;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+}
+.check #mail {
+    width: 300px;
+    margin-right: 20px;
+    border-radius: 20px;
+    height: 30px;
+    border-color: #fff;
+    background:none;
+    font-size: 24px;
+    padding: 10px;
+    
+    
+}
+input::placeholder{
+    color: #fff;
+    padding-left: 10px;
+}
+.check .submit{
+    width: 100px;
+    border-radius: 25px;
+    background-color: skyblue;
+}
+@media(min-width:576px){
+    .newyear{
+        font-size: 60px;
+    }
+    p{
+        font-size: 18px;
+    }
+    .box{
+        height: 70px;
+        width: 100px;
+    }
+    .box h2{
+        font-size: 30px;
+    }
+    .box small{
+        font-size: 15px;
+    
+    }
+}
+
+@media(min-width:768px){
+    .newyear{
+        font-size: 100px;
+    }
+    p{
+        font-size: 25px;
+    }
+    .box{
+        width: 150px;
+        height: 90px;
+    }
+    .box h2{
+        font-size: 50px;
+       
+    }
+    .box small{
+        font-size: 20px;
+    
+    }
+
+}
